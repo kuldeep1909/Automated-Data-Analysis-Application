@@ -18,7 +18,7 @@ if file != None:
     if file.name.endswith ('csv'):
         data = pd.read_csv(file,  encoding='utf-8', errors = 'ignore')
     else:
-        data = pd.read_excel(file, engine= 'python', encoading = 'utf-8', errors='ignore')
+        data = pd.read_excel(r'file', engine= 'python', encoading = 'utf-8', errors='ignore')
 
     st.dataframe(data)
     st.info("File is successfully uploaded", icon="🚨")

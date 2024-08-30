@@ -4,7 +4,7 @@ import streamlit as st
 
 
 
-st.set_page_config(page_title="Consoleflare Analytics Portal",
+st.set_page_config(page_title="Automted EDA Analytics Portal",
                    page_icon="📊"
                    )
 
